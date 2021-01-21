@@ -7,7 +7,7 @@ const SetupForm = () => {
     <main>
       <section className='quiz quiz-small'>
         <form className='setup-form'>
-          <h2>setup quiz</h2>
+          <h2> quiz</h2>
           {/* amount */}
           <div className='form-control'>
             <label htmlFor='amount'>number of questions</label>
@@ -36,6 +36,8 @@ const SetupForm = () => {
               <option value='sports'>sports</option>
               <option value='history'>history</option>
               <option value='politics'>politics</option>
+              <option value='geography'>geography</option>
+              <option value='film'>film</option>
             </select>
           </div>
           {/* difficulty */}
